@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <style>
+        li{
+            float: left;
+            padding: 10px;
+            border: 1px solid #ff0808;
+
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+        }
+         input{
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #000000;
+            
+        }
+        table{
+            width: 100%;
+            border-collapse:collapse;
+        }
+    
+        th{
+            background-color: #ccc;
+
+        }
+        td, th{
+            border: 1px solid black;
+            border-width:1px;
+            padding: 10px;
+            text-align: center;
+        }
+        footer{
+            text-align: center;
+        }
+        
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+    <h1>Cadastro e Listagem de Pontos</h1>
+    </header>
+   
+    <main>
+        <section>
+            <hr>
+    <form action="Formulario.html">
+    <label for="Motivo">Motivo: </label> <input type="text" name="Motivo" id="Motivo">
+    <label for="Data">Data</label> <input type="date" name="Data" id="Data">
+    <label for="select">Tipo: </label>
+    <select name="select" id="select"> 
+    <option value="op1">Entrada</option>
+    <option value="op2">Saída</option>
+    <option value="op3">Data</option>
+    </select>
+    <input type="submit" value="Registrar Ponto"><br><hr><br>
+    
+    </form>
+
+</section>
+<section>
+    <section>
+        <ul>
+            <li><b>Nome: </b>José da Silva</li>
+            <li><b>Cargo: </b>Portaria</li>
+        </ul>
+    </section>
+
+    <table>
+      
+        <tbody>
+            <tr><th>Data </th>
+            <th>Entrada </th>
+            <th>Saída </th>
+
+           </tr><tr>
+            <td rowspan="2">01/08/2023</td>
+            <td>09:00</td>
+            <td>18:00</td>
+
+           </tr>
+
+           <tr>
+            
+            <td>19:00</td>
+            <td>21:00</td>
+
+
+
+           </tr>
+
+           <tr>
+            <td>02/08/2023</td>
+            <td colspan="6"> Folga &nbsp;</td>
+         
+
+
+           </tr>
+
+           <tr>
+            <td rowspan="2">03/08/2023</td>
+            <td>08:30</td>
+            <td>17:45</td>
+
+
+           </tr>
+
+           <tr>
+           
+            <td>18:30</td>
+            <td>22:00</td>
+
+           </tr>
+
+           <tr>
+            <td>04/08/2023</td>
+            <td colspan="6"> Folga &nbsp;</td>
+            
+
+           </tr>
+
+           <tr>
+            <td rowspan="2">05/08/2023</td>
+            <td>10:15</td>
+            <td>18:30</td>
+
+           </tr>
+
+           <tr>
+            <td>19:15</td>
+            <td>21:45</td>
+
+           </tr>
+
+           <tr>
+            <td>06/08/2023</td>
+            <td colspan="6">Folga &nbsp;</td>
+    
+           </tr>
+           <tr>
+            <td rowspan="2">07/08/2023</td>
+            <td>09:20</td>
+            <td>17:30</td>
+           </tr>
+           <tr>
+            <td>18:15</td>
+            <td>21:00</td>
+           </tr>
+           <caption><small>Registro de pontos</small></caption>
+
+        </tbody>
+       
+    </table>
+</section>
+   
+    </main>
+    <hr>
+    <footer>Sistema de Gestão de Ponto<sup>&reg;</sup></footer>
+    
+
+</body></html>
